@@ -1,0 +1,17 @@
+{
+   "name": "书签同步",
+   "description" : "上传/下载书签信息到Github", 
+   "version": "1.0",
+   "manifest_version": 2,
+   "permissions": [ "bookmarks", "storage", "https://api.github.com/" ],
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+   },
+   "browser_action": {
+      "default_icon": "icon32.png",
+      "default_popup": "popup.html",
+      "default_title": "书签同步"
+   }
+ }
